@@ -24,14 +24,14 @@ const Hotel = () => {
                 allHotel.map(hotel =>
                     <div className="row"  style={{marginBottom: "20px"}}>
                         <div className="col-6">
-                            <img style={{width: "100%", height: "300px"}}src={require(`../../Image/${hotel.img}`)} alt="" />
+                            <img className="img-fluid" src={require(`../../Image/${hotel.img}`)} alt="" />
                         </div>
                         <div className="col-6">
                             <h5>{hotel.title}</h5>
                             <p>{hotel.facilities}</p>
                             <p>{hotel.fexibility}</p>
-                            <p> <img style={{height:"15px",width:"15px"}} src={require(`../../Icon/star_1_.png`)} alt=""/> {hotel.rating}</p>
-                            <p>{hotel.price}</p>
+                            <p> <img style={{height:"15px",width:"15px"}} src={require(`../../Icon/star_1_.png`)} alt=""/> {hotel.rating}  {hotel.price}</p>
+                            
 
                         </div>
                     </div>

@@ -10,7 +10,7 @@ const fakeDataForHotel = [
     },
     {
         img: "Rectangle 27.png",
-        title: "Apartment is Lost Panorama",
+        title: "Apartment in Lost Panorama",
         facilities: "Wifi Air Conditioning kitchen",
         fexibility: "Cancellation fexibility availiable",
         rating: "4.8(10)",
