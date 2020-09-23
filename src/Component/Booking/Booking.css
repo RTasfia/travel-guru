@@ -1,0 +1,20 @@
+.booking-form{
+    height: 650px;
+    width: 70%;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-bottom: 150px;
+    padding: 40px;
+    margin: 15%;
+}
+.booking-form p{
+    color: #818181;
+}
+input{
+    background: #F2F2F2;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width: 100%;
+}

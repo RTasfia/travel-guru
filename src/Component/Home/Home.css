@@ -1,0 +1,23 @@
+.Background-img{
+  background-position: center center;
+  background-size: cover;
+  background-size: 100% 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url("../../Image/COXS\ BAZAR.png");
+
+}
+.card{
+  height: 400px;
+  background-size: 100% 100%;
+}
+.card-text{
+  color: white;
+  padding-top: 300px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.about-place{
+  color: white;
+  text-align: justify;
+  padding-top: 10%;
+}

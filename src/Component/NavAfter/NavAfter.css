@@ -1,0 +1,12 @@
+.navbar li{
+    display: inline;
+    margin-left: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.nav-before a{
+    color: white;
+}
