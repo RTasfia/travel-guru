@@ -88,7 +88,7 @@ const UserStatus = () => {
       }
     }
     if (event.target.name === "password") {
-      isSubmitValid = event.target.value.length >= 5
+      isSubmitValid = event.target.value.length >= 6
       if(isSubmitValid === true){
         const validation = {...formValidation};
         validation.isPasswordValid = true;

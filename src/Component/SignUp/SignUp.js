@@ -22,7 +22,7 @@ const SignUp = (props) => {
                 <input onBlur={props.handleBlur} type="password" name="password" id="password1" required/>
                 {
                     !formValidation.isPasswordValid&&
-                    <small style={{color: "red"}}>Password should contain atleast five characters!</small>
+                    <small style={{color: "red"}}>Password should contain atleast six characters!</small>
                 }
                 <p>Confirm Password</p>
                 <input onBlur={props.handleBlur} type="password" name="confirmPassword" id="password2" required/>

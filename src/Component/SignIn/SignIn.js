@@ -18,7 +18,7 @@ const SignIn = (props) => {
                 <input onBlur={props.handleBlur} type="password" name="password" id="" required/>
                 {
                     !formValidation.isPasswordValid&&
-                    <small style={{color: "red"}}>Password should contain atleast five characters!</small>
+                    <small style={{color: "red"}}>Password should contain atleast six characters!</small>
                 }
                 <br/> <br/>
                 <input style={{height: "12px", width: "12px"}} type="checkbox" name="" id="remember"/> <label for ="remember">Remember me</label>
