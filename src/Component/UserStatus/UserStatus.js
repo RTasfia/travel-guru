@@ -48,6 +48,7 @@ const UserStatus = () => {
         })
         .catch(function (error) {
           var errorMessage = error.message;
+          alert(errorMessage);
         });
       e.preventDefault();
     }
@@ -66,6 +67,7 @@ const UserStatus = () => {
         })
         .catch(function (error) {
           var errorMessage = error.message;
+          alert(errorMessage);
         });
       e.preventDefault();
     }
@@ -138,6 +140,7 @@ const UserStatus = () => {
         history.replace(from);
       }).catch(function (error) {
         var errorMessage = error.message;
+        alert(errorMessage);
       });
   }
 
@@ -153,6 +156,7 @@ const UserStatus = () => {
         history.replace(from);
       }).catch(function (error) {
         var errorMessage = error.message;
+        alert(errorMessage);
       });
   }
   return (
